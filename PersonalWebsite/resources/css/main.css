@@ -1,0 +1,130 @@
+body{
+    background-color: white;
+    background-size: cover;
+    user-select: none;
+}
+
+#body1{
+    background-image: url('../image/background.png');
+}
+
+#my_info{
+    margin-top: 6rem;
+    margin-left: 25rem;
+	color: black;
+}
+
+#hello{
+    padding-top: 2rem;
+    font-family: 'Abyssinica SIL', serif;
+}
+
+#me{
+    padding-bottom: 10px;
+    font-family: 'Abyssinica SIL', serif;
+}
+
+#role{
+    font-family: 'Indie Flower', cursive;
+    padding-bottom: 10px;
+    /*color: #252525; */
+}
+
+#list{
+    margin-left: 1px;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.side-nav{
+    background-color: #f1f1f1;
+    text-align: left;
+    padding: 1rem;
+    position: fixed;
+    top: 0%;
+    height: 100%;
+    width: 20%;
+    user-select: none;
+}
+
+.ul{
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.button{
+    background-color: #f1f1f1;
+    text-align: center;
+    border: none;
+    padding: 8px;
+    margin-left: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Sans-serif';
+    font-size: 110%;
+    position: absolute;
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+}
+
+ul a:active{
+    color: #555;
+}
+
+ul a:hover{
+    color: blue;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+#About{
+    margin-top: 20px;
+}
+
+#Project{
+    margin-top: 40px;
+}
+
+#Skills{
+    margin-top: 60px;
+}
+
+#Contact{
+    margin-top: 80px;
+}
+
+#Main:hover{
+    margin-top: 1px;
+    font-size: 115%;
+}
+
+#About:hover{
+    margin-top: 21px;
+    font-size: 115%;
+}
+
+#Project:hover{
+    margin-top: 41px;
+    font-size: 115%;
+}
+
+#Skills:hover{
+    margin-top: 61px;
+    font-size: 115%;
+}
+
+#Contact:hover{
+    margin-top: 81px;
+    font-size: 115%;
+}
+
+#image{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font-family: 'Serif fonts';
+}
